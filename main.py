@@ -1,6 +1,7 @@
 import yaml
 from data.processing_data import make_dataloader
 import torch
+from train.training import run_training
 
 PATH_CONFIGS = 'config/config.yaml'
 
